@@ -1,0 +1,139 @@
+/*main article related*/
+
+.main-article .relate-article {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.main-article .relate-article li::before {
+    content: "•";
+    display: inline;
+    margin-right: 5px;
+}
+
+.main-article .relate-article li+li {
+    margin-top: 10px;
+}
+
+/*breadcrumb style*/
+.breadcrumb h1 {
+    font-size: 18px;
+    display: inline;
+}
+
+.middle-zone .zone:nth-child(2n+1) {
+    clear: both;
+}
+
+.related-box .story:nth-child(4n+1) {
+    clear: both;
+}
+
+.story .thumb a {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    overflow: hidden
+}
+
+.story .thumb a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto
+}
+
+/*topic style*/
+.topic-wrap {
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    position: relative;
+    padding: 3px 0;
+
+}
+
+.topic-label::before {
+    content: '';
+    display: block;
+    width: 10%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #c7252b;
+    position: absolute;
+    z-index: 1;
+}
+
+/*topic style*/
+.topic-label {
+    width: 10%;
+    float: left;
+}
+
+.topic-label span {
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.topic-listing {
+    float: left;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 2px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.topic-listing a::before {
+    content: '•';
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.topic-listing a+a {
+    margin-left: 15px;
+}
+
+/*detail style*/
+.main-article .article-hdr .meta .meta-share>* {
+    font-size: 24px;
+}
+
+.main-article .article-hdr .meta .meta-share .fa-facebook-square {
+    color: #3b5998;
+}
+
+.main-article .article-hdr .meta .meta-share .fa-envelope-square {
+    color: #ffa700;
+}
+
+.main-article .article-hdr .meta .meta-share .fa-google-plus-square {
+    color: #d62d20;
+}
+
+.main-article .article-hdr .meta .meta-share .fa-facebook-square:hover {
+    color: #2d4371;
+}
+
+.main-article .article-hdr .meta .meta-share .fa-envelope-square:hover {
+    color: #e49601;
+}
+
+.main-article .article-hdr .meta .meta-share .fa-google-plus-square:hover {
+    color: #bb271c;
+}
+
+/*footer style*/
+#site-footer .container {
+    font-size: 12px;
+    line-height: 1.4;
+}
