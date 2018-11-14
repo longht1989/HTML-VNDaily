@@ -59,7 +59,7 @@
 .topic-label::before {
     content: '';
     display: block;
-    width: 10%;
+    width: 30%;
     left: 0;
     top: 0;
     bottom: 0;
@@ -68,9 +68,8 @@
     z-index: 1;
 }
 
-/*topic style*/
 .topic-label {
-    width: 10%;
+    width: 30%;
     float: left;
 }
 
@@ -78,7 +77,7 @@
     font-weight: bold;
     color: white;
     position: absolute;
-    left: 5%;
+    left: 15%;
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -86,11 +85,16 @@
 
 .topic-listing {
     float: left;
-    max-width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 30%;
     margin-top: 2px;
     padding-left: 10px;
     font-size: 13px;
+}
+
+.topic-listing a {
+    margin-bottom: 2px;
+    display: inline-block;
 }
 
 .topic-listing a::before {
@@ -101,6 +105,44 @@
 
 .topic-listing a+a {
     margin-left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .topic-label {
+        width: 20%;
+    }
+
+    .topic-label::before {
+        width: 20%;
+    }
+
+    .topic-label span {
+        left: 10%;
+    }
+
+    .topic-listing {
+        width: 80%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .topic-label {
+        width: 10%;
+    }
+
+    .topic-label::before {
+        width: 10%;
+    }
+
+    .topic-label span {
+        left: 5%;
+    }
+
+    .topic-listing {
+        width: 90%;
+        margin-left: 10%;
+    }
 }
 
 /*detail style*/
