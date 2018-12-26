@@ -206,6 +206,32 @@ body,
     color: #bb271c;
 }
 
+.main-article .article__viewmore {
+    position: relative;
+}
+
+.main-article .article__viewmore::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.main-article .article__viewmore {
+    text-align: center;
+}
+
+.main-article .article__viewmore .btn {
+    position: relative;
+    font-weight: normal !important;
+    color: #111;
+}
+
 /*footer style*/
 #site-footer .container {
     font-size: 12px;
