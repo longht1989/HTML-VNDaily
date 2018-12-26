@@ -232,6 +232,13 @@ body,
     color: #111;
 }
 
+.article-photo.main-article .article-content .content img {
+    margin-bottom: 0;
+}
+.article-photo .slider-caption li .caption span{
+    color: #fff !important;
+}
+
 /*footer style*/
 #site-footer .container {
     font-size: 12px;
