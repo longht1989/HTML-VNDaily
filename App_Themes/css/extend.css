@@ -1,3 +1,35 @@
+/*reset font body*/
+body,
+.zone>header .zone-title {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.zone>header .zone-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.highlight-zone .story.story-cover .title {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.zone>header .zone-title a {
+    padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .story .title {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+/*header*/
+.navigation>ul>li>a {
+    padding: 0 9px;
+}
+
 /*main article related*/
 
 .main-article .relate-article {
@@ -19,7 +51,7 @@
 
 /*breadcrumb style*/
 .breadcrumb h1 {
-    font-size: 18px;
+    font-size: 16px;
     display: inline;
 }
 
@@ -98,7 +130,7 @@
 }
 
 .topic-listing a::before {
-    content: '•';
+    content: 'â€¢';
     display: inline-block;
     margin-right: 4px;
 }
