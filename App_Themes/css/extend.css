@@ -130,7 +130,7 @@ body,
 }
 
 .topic-listing a::before {
-    content: 'â€¢';
+    content: '•';
     display: inline-block;
     margin-right: 4px;
 }
