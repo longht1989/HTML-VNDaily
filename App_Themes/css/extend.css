@@ -61,6 +61,16 @@ body,
     text-align: justify;
 }
 
+.main-article .article-content h1,
+.main-article .article-content h2,
+.main-article .article-content h3,
+.main-article .article-content h4,
+.main-article .article-content h5 {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
 /*breadcrumb style*/
 .breadcrumb h1 {
     font-size: 16px;
